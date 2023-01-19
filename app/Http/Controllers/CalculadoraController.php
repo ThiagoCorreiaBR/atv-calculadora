@@ -41,6 +41,7 @@ class CalculadoraController extends Controller
             $soma = $num1/$num2;
         }
 
+        
         return view('soma',compact('soma'));
     }
 }
