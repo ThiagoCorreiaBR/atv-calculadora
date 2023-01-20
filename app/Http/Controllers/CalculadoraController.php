@@ -44,5 +44,11 @@ class CalculadoraController extends Controller
         
         return view('soma',compact('soma'));
     }
+
+    public function blade(){
+        $name = 'Taylor';
+
+        return view('Hello',compact('name'));
+    }
 }
 
