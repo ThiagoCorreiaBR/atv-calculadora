@@ -48,7 +48,7 @@ class CalculadoraController extends Controller
     public function blade(){
         $name = 'Taylor';
 
-        return view('Hello',compact('name'));
+        return view('hello',compact('name'));
     }
 }
 
